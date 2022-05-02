@@ -1,11 +1,10 @@
-import { Navbar, Welcome, ExploreLanai, Footer } from './components';
+import { Navbar, Welcome, ExploreLanai, Footer } from "../components/HomepageComponents";
 
 const Home = () => {
   return (
     <div className="Home">
-        <div className="min-h-screen">
-          <div className="gradient-bg-welcome w-screen h-screen flex flex-col">
-            <Navbar />
+        <div>
+          <div className="bg-gradient-to-r from-sky-700 to-violet-900 w-screen h-screen flex flex-col">
             <Welcome />
             <ExploreLanai />
             <Footer />
