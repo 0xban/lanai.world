@@ -8,7 +8,7 @@ return (
                 <h1 className="text-center text-3xl sm:text-5xl text-white">
                         DeFi's first Real-Time PvP Arena.
                 </h1>
-                    <p className="text-center sm:text-l text-white mt-4 text-base">
+                    <p className="text-center md:text-3xl text-white mt-4 text-xl">
                         Coming soon.
                     </p>
             </div>

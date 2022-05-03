@@ -1,0 +1,1 @@
+export { default as AccordionCard1 } from './AccordionCard1'

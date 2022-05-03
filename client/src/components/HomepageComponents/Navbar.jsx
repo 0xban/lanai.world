@@ -36,12 +36,12 @@ const Navbar = () => {
             {/* assign final 2 elements to right of logo */}
             <ul>
                 <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
-                    <Link to="/explore">Swap</Link>
+                    <Link to="/swap">Swap</Link>
                 </li>
             </ul>
             <ul>
                 <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
-                    <Link to="/roadmap">Marketplace</Link>
+                    <Link to="/marketplace">Marketplace</Link>
                 </li>
             </ul>        
             
