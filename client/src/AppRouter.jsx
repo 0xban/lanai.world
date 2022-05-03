@@ -9,6 +9,7 @@ const AppRouter = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='welcome' element={ <Home/> } />
+                <Route path='explore'element={ <Explore/> } />
                 <Route path='roadmap'element={ <Roadmap/> } />
             </Routes>
         </BrowserRouter>

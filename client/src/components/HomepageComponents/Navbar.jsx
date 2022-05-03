@@ -27,7 +27,7 @@ const Navbar = () => {
             </ul>  
             
             {/* now declaring logo */}
-            <div className="flex-center justify-center active:scale-95">
+            <div className="flex-center justify-center hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95">
                     <Link to="/">
                         <img src={logo} alt="logo" className="w-64 ml-8 mr-6 cursor-pointer"></img>
                     </Link>

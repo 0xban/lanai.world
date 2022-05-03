@@ -2,24 +2,23 @@ const ExploreLanai = () => {
 
 return(
 
-<div className="flex justify-center p-6 px-6">   
+<div className="flex justify-center px-6">   
     <a href="https://docs.lanai.world/" target="_blank">
-        <button className="text-2xl 
+        <button className="text-l 
                            sm:text-l 
-                           text-white  
-                           text-base 
+                           text-white   
                            active:scale-95 
-                           bg-purple-600 
-                           hover:bg-purple-700 
-                           text-white 
+                           bg-violet-500 
                            font-bold
                            px-3
                            py-2.5 
                            rounded-lg
                            flex-center
                            mb-6
+                           hover:transition-all duration-500 ease-in-out
+                           hover:bg-violet-600
                            hover:drop-shadow-2xl">
-                Explore Lanai
+                Lanai Documents
         </button>
     </a>
     

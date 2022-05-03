@@ -7,9 +7,9 @@ const Footer = () => {
 
     return(
     
-<div className='flex h-24 mt-24 justify-center'>
+<div className='flex p-12 justify-center'>
     <div>
-        <a href="https://github.com/0xban/lanai-world" target="_blank" rel="noreferrer noopener">
+        <a href="https://github.com/0xban/lanai.world" target="_blank" rel="noreferrer noopener">
             <AiOutlineGithub color="white" fontSize={28} className="cursor-pointer active:scale-95 mx-6" />
         </a>
     </div>
