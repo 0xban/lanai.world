@@ -18,7 +18,7 @@ return(
                            hover:transition-all duration-500 ease-in-out
                            hover:bg-violet-600
                            hover:drop-shadow-2xl">
-                Lanai Documents
+                Lanai Documentation
         </button>
     </a>
     
