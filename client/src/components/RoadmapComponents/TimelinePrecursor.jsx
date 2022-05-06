@@ -12,9 +12,9 @@ const TimelinePrecursor = () => {
             The Roadmap
         </div>
 
-        <div className='flex justify-center text-white md:text-2xl text-center md:px-36 px-8 py-8'>
+        <div className='flex justify-center text-white md:text-xl text-center pt-1 px-12 py-12 mb-12'>
             A timeline and roadmap of key developmental objectives, which will be updated as
-            Lanai grows. For even more information and an in-depth look at current goals, feel
+            Lanai grows. For more information and an in-depth look at current goals, feel
             free to visit the official Lanai Medium page! 
         </div>
 

@@ -3,7 +3,7 @@ import { Cards } from "../components/ExploreComponents";
 
 const Roadmap = () => {
   return (
-    <div className="bg-gradient-to-r from-sky-700 to-violet-900 flex flex-col">
+    <div className="bg-gradient-to-r from-sky-700 to-violet-900 flex flex-col h-screen ">
         <Cards />
         <Footer />
     </div>

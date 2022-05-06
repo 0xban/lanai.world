@@ -5,12 +5,9 @@ return (
     <div className="flex justify-center items-center py-2">
         <div className=" flex justify-center md:p-20 py-12 px-4">
             <div className="justify-center">
-                <h1 className="text-center text-3xl sm:text-5xl text-white">
+                <h1 className="text-center text-xl md:text-5xl text-white">
                         DeFi's first Real-Time PvP Arena.
-                </h1>
-                    <p className="text-center md:text-3xl text-white mt-4 text-xl">
-                        Coming soon.
-                    </p>
+                </h1>                   
             </div>
         </div>
     </div>

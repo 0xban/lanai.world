@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
 import Roadmap from './pages/Roadmap';
+import Swap from './pages/Swap';
+import Marketplace from './pages/Marketplace';
 
 import { Navbar } from './components/HomepageComponents';
 import { ExploreCard1 } from './pages';
@@ -16,8 +18,8 @@ const App = () => {
         <Route path='/' exact component={Home} />
         <Route path='/explore' component={Explore} />
         <Route path='/roadmap' component={Roadmap} />
-        {/* <Route path='/swap' component={Swap} />
-        <Route path='/marketplace' component={Marketplace} /> */}
+        <Route path='/swap' component={Swap} />
+        <Route path='/marketplace' component={Marketplace} />
         <Route path='/explorecard1' component={ExploreCard1} />
         <Route path='/explorecard2' component={ExploreCard2} />
         <Route path='/explorecard3' component={ExploreCard3} />

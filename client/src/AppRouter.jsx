@@ -1,11 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Home from './pages'
-import { Roadmap } from './pages';
-import { ExploreCard1 } from './pages';
-import { ExploreCard2 } from './pages';
-import { ExploreCard3 } from './pages';
+
 
 const AppRouter = () => {
     return (

@@ -16,12 +16,12 @@ const Navbar = () => {
         
             {/* assigning first 2 elements to left of logo */}
             <ul>
-                <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
+                <li className='text-xl text-white/70 hover:text-white transition-all hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95'>
                     <Link to="/explore">Explore</Link>
                 </li>   
             </ul>
             <ul>
-                <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
+                <li className='text-xl text-white/70 hover:text-white transition-all hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95'>
                     <Link to="/roadmap">Roadmap</Link>
                 </li> 
             </ul>  
@@ -35,12 +35,12 @@ const Navbar = () => {
             
             {/* assign final 2 elements to right of logo */}
             <ul>
-                <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
+                <li className='text-xl text-white/70 hover:text-white transition-all hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95'>
                     <Link to="/swap">Swap</Link>
                 </li>
             </ul>
             <ul>
-                <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12'>
+                <li className='text-xl text-white/70 hover:text-white transition-all hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95'>
                     <Link to="/marketplace">Marketplace</Link>
                 </li>
             </ul>        
