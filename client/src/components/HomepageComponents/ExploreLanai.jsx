@@ -2,7 +2,7 @@ const ExploreLanai = () => {
 
 return(
 
-<div className="flex justify-center px-6">   
+<div className="flex bg-gradient-to-r from-sky-700 to-violet-900 justify-center px-6">   
     <a href="https://docs.lanai.world/" target="_blank">
         <button className="text-l 
                            sm:text-l 

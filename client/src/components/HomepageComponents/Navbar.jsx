@@ -27,9 +27,9 @@ const Navbar = () => {
             </ul>  
             
             {/* now declaring logo */}
-            <div className="flex-center justify-center hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95">
-                    <Link to="/">
-                        <img src={logo} alt="logo" className="w-64 ml-8 mr-6 cursor-pointer"></img>
+            <div className="flex-center hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95">
+                    <Link to="/home">
+                        <img src={logo} alt="logo" className="md:w-64 md:ml-8 md:mr-6 w-64 cursor-pointer"></img>
                     </Link>
             </div>
             
@@ -47,22 +47,21 @@ const Navbar = () => {
             
                 
             {/* now defining elements for use on mobile devices */}
-            <div className="flex relative">
+            <div className="flex">
 
-            {toggleMenu
-            ? <AiOutlineClose fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
-            : <HiMenuAlt4  fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(true)} />
-            }
+                {toggleMenu
+                ? <AiOutlineClose fontSize={28} className="text-white md:hidden cursor-pointer place-self-end" onClick={() => setToggleMenu(false)} />
+                : <HiMenuAlt4  fontSize={28} className="text-white md:hidden cursor-pointer place-self-end" onClick={() => setToggleMenu(true)} />
+                }
 
                 {toggleMenu && (
-                <ul
-                    className="
+                <ul className="
                     z-10 
                     fixed 
                     top-0 
                     -right-2 
                     p-2 
-                    w-[40vw]
+                    w-[50vw]
                     h-[100hw]
                     shadow-2xl 
                     md:hidden 
@@ -75,27 +74,27 @@ const Navbar = () => {
                     blue-glassmorphism 
                     text-white 
                     animate-slide-in 
-                    leading-10"
-                >
-                {/* closing the menu */}
-                <li className="text-xl w-full my-0">
-                    <AiOutlineClose onClick={() => setToggleMenu(false)} />
-                </li>
+                    leading-10">
 
-                <ul>
-                    <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
-                        <Link to="/explore">Explore</Link>
+                    {/* closing the menu */}
+                    <li className="text-xl w-full my-0">
+                        <AiOutlineClose onClick={() => setToggleMenu(false)} />
                     </li>
-                    <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
-                        <Link to="/roadmap">Roadmap</Link>
-                    </li>
-                    <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
-                        <Link to="/swap">Swap</Link>
-                    </li>
-                    <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
-                        <Link to="/marketplace">Marketplace</Link>
-                    </li>        
-                </ul>
+
+                    <ul>
+                        <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
+                            <Link to="/explore">Explore</Link>
+                        </li>
+                        <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
+                            <Link to="/roadmap">Roadmap</Link>
+                        </li>
+                        <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
+                            <Link to="/swap">Swap</Link>
+                        </li>
+                        <li className='text-xl text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:cursor-pointer md:flex list-none flex-row items-center flex-initial p-4'>
+                            <Link to="/marketplace">Marketplace</Link>
+                        </li>        
+                    </ul>
            
                 </ul>    
             )}

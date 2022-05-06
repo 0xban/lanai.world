@@ -1,0 +1,1 @@
+export { default as VideoLanding } from './VideoLanding';

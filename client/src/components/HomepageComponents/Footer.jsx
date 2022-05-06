@@ -7,7 +7,7 @@ const Footer = () => {
 
     return(
     
-<div className='flex py-24 justify-center'>
+<div className='flex bg-gradient-to-r from-sky-700 to-violet-900 py-24 justify-center'>
     <div className='hover:transition-all duration-500 ease-out hover:drop-shadow-2xl hover:scale-105'>
         <a href="https://github.com/0xban/lanai.world" target="_blank" rel="noreferrer noopener">
             <AiOutlineGithub color="white" fontSize={28} className="cursor-pointer active:scale-95 mx-6" />
