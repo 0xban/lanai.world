@@ -17,7 +17,9 @@ const Navbar = () => {
             {/* assigning first 2 elements to left of logo */}
             <ul>
                 <li className='text-xl text-white/70 hover:text-white transition-all hover:cursor-pointer md:flex hidden list-none flex-row items-center flex-initial px-12 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl active:scale-95'>
-                    <Link to="/explore">Explore</Link>
+                    <a href="https://docs.lanai.world" target="_blank" rel="noreferrer noopener">
+                        Docs
+                    </a>
                 </li>   
             </ul>
             <ul>

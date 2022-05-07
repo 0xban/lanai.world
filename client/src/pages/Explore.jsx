@@ -4,7 +4,7 @@ import { Cards2 } from "../components/ExploreComponents";
 
 const Roadmap = () => {
   return (
-    <div className="bg-gradient-to-r from-sky-700 to-violet-900 h-max md:h-max ">
+    <div className="bg-gradient-to-r from-sky-700 to-violet-900 h-max md:h-screen ">
         <Navbar />
         <Cards />
         <Cards2 />

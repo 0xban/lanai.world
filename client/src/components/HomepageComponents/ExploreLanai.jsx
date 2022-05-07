@@ -1,14 +1,17 @@
+import React from 'react'
+
+import { Link } from "react-router-dom"
+
 const ExploreLanai = () => {
 
 return(
 
 <div className="flex bg-gradient-to-r from-sky-700 to-violet-900 justify-center px-6">   
-    <a href="https://docs.lanai.world/" target="_blank">
-        <button className="text-l 
-                           sm:text-l 
+    <Link to='/explore'>
+        <button className="text-3xl  
                            text-white   
                            active:scale-95 
-                           bg-violet-500 
+                           bg-gradient-to-r from-violet-500 to-rose-900
                            font-bold
                            px-3
                            py-2.5 
@@ -16,11 +19,11 @@ return(
                            flex-center
                            mb-6
                            hover:transition-all duration-500 ease-in-out
-                           hover:bg-violet-600
+                           hover:scale-110
                            hover:drop-shadow-2xl">
-                Lanai Documentation
+                Explore Lanai
         </button>
-    </a>
+    </Link>
     
 </div> 
 

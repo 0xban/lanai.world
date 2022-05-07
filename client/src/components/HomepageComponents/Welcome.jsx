@@ -7,7 +7,7 @@ return (
 
         <div className="flex justify-center items-center md:py-16 py-24">
         
-            <div className=" flex justify-center md:p-20 px-4">
+            <div className=" flex justify-center py-4 px-16">
                 <div className="justify-center">
                     <h1 className="text-center text-3xl font-bold md:text-4xl text-white">
                         LANAI is the ambitious effort of bringing real-time 3D PvP
