@@ -41,7 +41,7 @@ const AccordionCard1 = () => {
 
       {/* dot separation, REMINDER: alter colors in gradient fashion as you finish */}
       <div className='text-2xl'>
-        <div className='flex justify-center my-1 text-white drop-shadow-xl'>
+        <div className='flex justify-center my-1 text-white'>
           <p>
             .
           </p>
