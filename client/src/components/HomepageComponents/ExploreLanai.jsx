@@ -21,7 +21,7 @@ return(
                            hover:transition-all duration-500 ease-in-out
                            hover:scale-110
                            hover:drop-shadow-2xl">
-                Explore Lanai
+                Explore LANAI
         </button>
     </Link>
     
