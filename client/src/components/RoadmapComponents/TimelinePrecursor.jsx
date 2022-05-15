@@ -14,7 +14,7 @@ const TimelinePrecursor = () => {
                     <h1 className="text-center text-3xl font-bold md:text-5xl text-white">
                         LANAI Roadmap & Goals
                     </h1>
-                        <h2 className="text-center text-l md:text-2xl text-white py-12">
+                        <h2 className="text-center text-l md:text-xl text-white py-12">
                         A timeline and roadmap of key developmental objectives, which will be updated as
                         LANAI grows. For more information and an in-depth look at current goals, feel
                         free to visit the official LANAI Medium page! 
