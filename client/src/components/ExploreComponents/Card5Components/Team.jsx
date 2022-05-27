@@ -15,7 +15,7 @@ const Team = () => {
                 </div>
 
                 <div className='flex justify-center text-white md:text-xl text-center pt-1 px-12 py-12 mb-12'>
-                     Small but mighty, and we have a milady. Every team needs a milady.
+                     Gamers, engineers, crypto enthusiasts.
                 </div>
 
             </div>

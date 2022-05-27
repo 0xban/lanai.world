@@ -9,7 +9,9 @@ import { Link } from "react-router-dom"
 const Cards2 = () => {
 
   return (
-        <div className="md:flex justify-center mx-6">
+
+        
+        <div className="md:flex justify-center mx-6 md:mb-24">
             <div className="cursor-pointer rounded-lg shadow-lg bg-gradient-to-r from-slate-300 to-black max-w-fit md:max-w-xs hover:scale-105 active:scale-100 my-4 mx-4 mt-0 md:mt-4 hover:transition-all duration-500 ease-in-out hover:drop-shadow-2xl">
             <Link to="/explorecard4">
                 <img className="rounded-t-lg" src={fnscard1} alt="" />     
